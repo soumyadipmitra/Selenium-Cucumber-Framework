@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.006884">
+<testcase classname="Application Login" name="Home page default login with soumya username" time="0.003937">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User Login to application with "soumya" and password "pwd".............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login with multiple username and pwd" time="0.001268">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User Login to application with "user1" and password "pwd1".............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login with multiple username and pwd 2" time="0.000749">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User Login to application with "user2" and password "pwd2".............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login with multiple username and pwd 3" time="0.00093">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User Login to application with "user3" and password "pwd3".............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

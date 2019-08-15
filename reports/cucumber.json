@@ -1,0 +1,329 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Home page default login with soumya username",
+        "description": "",
+        "id": "application-login;home-page-default-login-with-soumya-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 729394,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "Login.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398322,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Login to application with \"soumya\" and password \"pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"soumya\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"pwd\"",
+                  "offset": 53
+                }
+              ],
+              "location": "Login.user_Login_to_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108228,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Home page is populated",
+            "match": {
+              "location": "Login.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128948,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Cards are displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regtest"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Home page default login with multiple username and pwd",
+        "description": "",
+        "id": "application-login;home-page-default-login-with-multiple-username-and-pwd;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 338522,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "Login.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280099,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Login to application with \"user1\" and password \"pwd1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"pwd1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Login.user_Login_to_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81022,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Home page is populated",
+            "match": {
+              "location": "Login.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125482,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Cards are displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regtest"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Home page default login with multiple username and pwd",
+        "description": "",
+        "id": "application-login;home-page-default-login-with-multiple-username-and-pwd;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167404,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "Login.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115093,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Login to application with \"user2\" and password \"pwd2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user2\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"pwd2\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Login.user_Login_to_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32301,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Home page is populated",
+            "match": {
+              "location": "Login.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311762,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Cards are displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regtest"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Home page default login with multiple username and pwd",
+        "description": "",
+        "id": "application-login;home-page-default-login-with-multiple-username-and-pwd;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 438953,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "Login.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194629,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Login to application with \"user3\" and password \"pwd3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user3\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"pwd3\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Login.user_Login_to_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50606,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Home page is populated",
+            "match": {
+              "location": "Login.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90591,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Cards are displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regtest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "\tTest feature file to check the login page",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
