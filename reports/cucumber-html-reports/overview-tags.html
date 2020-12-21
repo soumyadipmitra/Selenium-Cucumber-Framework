@@ -42,14 +42,14 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports  - Tags Overview</title>
+<title>Cucumber Reports (no 1.0.0) - Tags Overview</title>
 
 
   <script type="text/javascript">
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@smoketest", ] ,
+        labels:  [ "@regtest", ] ,
         datasets: [
             {
                 label: "Passed",
@@ -123,13 +123,15 @@ $(document).ready(function() {
   <thead>
     <tr>
       <th>Project</th>
+              <th>Number</th>
             <th>Date</th>
     </tr>
   </thead>
   <tbody>
     <tr class="info">
-      <td>No Name (add projectName to cucumber-reporting.properties)</td>
-            <td>20 Dec 2020, 17:49</td>
+      <td>&quot;Cucumber Selenium Framework&quot;</td>
+              <td>1.0.0</td>
+            <td>20 Dec 2020, 21:31</td>
     </tr>
   </tbody>
 </table>
@@ -191,20 +193,20 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-tag_smoketest.html">@smoketest</a></td>
+        <td class="tagname"><a href="report-tag_regtest.html">@regtest</a></td>
         
-        <td      class="passed"    >12</td>
+        <td      class="passed"    >16</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">12</td>
+        <td class="total">16</td>
 
-        <td  class="passed"    >3</td>
+        <td  class="passed"    >4</td>
         <td >0</td>
-        <td class="total">3</td>
+        <td class="total">4</td>
 
-        <td class="duration" data-value="4301236">0.004</td>
+        <td class="duration" data-value="2715216">0.002</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -212,18 +214,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-            <td>12</td>
+            <td>16</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>12</td>
+      <td>16</td>
 
-      <td>3</td>
+      <td>4</td>
       <td>0</td>
-      <td>3</td>
+      <td>4</td>
 
-      <td class="duration">0.004</td>
+      <td class="duration">0.002</td>
       <td>1</td>
     </tr>
     <tr>

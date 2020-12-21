@@ -15,3 +15,4 @@ Automation framework using Cucumber, Java and Selenium with Maven
 ### Reports
 > reports/cucumber-html-reports
 
+![Cucumber-Html_Report](.README/Features-overview.png)

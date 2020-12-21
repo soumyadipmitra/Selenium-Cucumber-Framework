@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports  - Feature: Application Login</title>
+<title>Cucumber Reports (no 1.0.0) - Feature: Application Login</title>
 
 </head>
 <body>
@@ -69,13 +69,15 @@ $(document).ready(function() {
   <thead>
     <tr>
       <th>Project</th>
+              <th>Number</th>
             <th>Date</th>
     </tr>
   </thead>
   <tbody>
     <tr class="info">
-      <td>No Name (add projectName to cucumber-reporting.properties)</td>
-            <td>20 Dec 2020, 17:49</td>
+      <td>&quot;Cucumber Selenium Framework&quot;</td>
+              <td>1.0.0</td>
+            <td>20 Dec 2020, 21:31</td>
     </tr>
   </tbody>
 </table>
@@ -128,18 +130,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Application Login</td>
-                    <td      class="passed"    >12</td>
+                    <td      class="passed"    >16</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">12</td>
+          <td class="total">16</td>
 
-          <td  class="passed"    >3</td>
+          <td  class="passed"    >4</td>
           <td >0</td>
-          <td class="total">3</td>
+          <td class="total">4</td>
 
-          <td class="duration" data-value="4301236">0.004</td>
+          <td class="duration" data-value="2715216">0.002</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -188,18 +190,18 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_smoketest.html">@smoketest</a>
+           <a href="report-tag_regtest.html">@regtest</a>
       </div>
 
   
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Home page default login</span>
+  <span class="name">Home page default login with soumya username</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -252,7 +254,7 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">User Login to application with username and password</span>
+  <span class="name">User Login to application with &quot;soumya&quot; and password &quot;pwd&quot;</span>
   
   <span class="lead-duration duration">0.000</span>
 
@@ -326,7 +328,7 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_smoketest.html">@smoketest</a>
+           <a href="report-tag_regtest.html">@regtest</a>
       </div>
 
   
@@ -336,8 +338,8 @@ $(document).ready(function() {
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
     
 <div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Home page default login with jim username</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Home page default login with multiple username and pwd</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -390,7 +392,7 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">User Login to application with &quot;jim&quot; and password &quot;jimpwd&quot;</span>
+  <span class="name">User Login to application with &quot;user1&quot; and password &quot;pwd1&quot;</span>
   
   <span class="lead-duration duration">0.000</span>
 
@@ -432,7 +434,7 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">Cards are displayed &quot;false&quot;</span>
+  <span class="name">Cards are displayed &quot;true&quot;</span>
   
   <span class="lead-duration duration">0.000</span>
 
@@ -464,18 +466,18 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_smoketest.html">@smoketest</a>
+           <a href="report-tag_regtest.html">@regtest</a>
       </div>
 
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
 <div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Home page default login with variable username and pwd</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Home page default login with multiple username and pwd</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -528,33 +530,153 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">User user sign up with &lt;username&gt; and &lt;password&gt;</span>
+  <span class="name">User Login to application with &quot;user2&quot; and password &quot;pwd2&quot;</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
   </div>
 
         
 
 
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>username</td>
-                                  <td>password</td>
-                              </tr>
-                          <tr>
-                                  <td>john</td>
-                                  <td>abcd</td>
-                              </tr>
-                          <tr>
-                                  <td>jenny</td>
-                                  <td>bcde</td>
-                              </tr>
-                          <tr>
-                                  <td>jack</td>
-                                  <td>efgh</td>
-                              </tr>
-                      </table>
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">Home page is populated</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Cards are displayed &quot;true&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_regtest.html">@regtest</a>
+      </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Home page default login with multiple username and pwd</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-7" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">User is on the landing page</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User Login to application with &quot;user3&quot; and password &quot;pwd3&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+
         
         
 
